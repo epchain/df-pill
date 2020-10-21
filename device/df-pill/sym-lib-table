@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sym)(type Legacy)(uri ${KIPRJMOD}/../lib/sym/sym.lib)(options "")(descr "Remote pump project symbols"))
+)

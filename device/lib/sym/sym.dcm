@@ -1,0 +1,135 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP BAT60A
+D 10V 3A High Current Recitifier Schottky Diode, SOD-323
+K diode Schottky
+F https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9
+$ENDCMP
+#
+$CMP BOOT01
+D BOOT0 and BOOT1-PB2 pins as two 3-pole jumpers, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP Connector_A
+D 1x20 connector for side A
+K connector
+F ~
+$ENDCMP
+#
+$CMP Connector_B
+D 1x20 connector for side B
+K connector
+F ~
+$ENDCMP
+#
+$CMP Connector_SWD
+D 1x4 pin header connector for SWD
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal_GND23_Small
+D Four pin crystal, GND on pins 2 and 3, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP ESDA7P60-1U1M
+D High power transient voltage suppressor, 1610
+K diode TVS transient voltage suppressor
+F https://www.st.com/resource/en/datasheet/esda7p60-1u1m.pdf
+$ENDCMP
+#
+$CMP GNDA
+D Power symbol creates a global label with name "GNDA" , analog ground
+K power-flag
+$ENDCMP
+#
+$CMP GNDD
+D Power symbol creates a global label with name "GNDD" , digital ground
+K power-flag
+$ENDCMP
+#
+$CMP Jumper_3_Open
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP LED_Small
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F ~
+$ENDCMP
+#
+$CMP MIC5219-3.3YM5
+D 500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP R_Small
+D Resistor, small symbol
+K R resistor
+F ~
+$ENDCMP
+#
+$CMP STM32F103C8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP USBLC6-2SC6
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP VDD
+D Power symbol creates a global label with name "VDD"
+K power-flag
+$ENDCMP
+#
+$CMP VDDA
+D Power symbol creates a global label with name "VDDA"
+K power-flag
+$ENDCMP
+#
+#End Doc Library
